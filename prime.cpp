@@ -11,8 +11,8 @@ break;
 }
 }
 if (con==true)
-cout<<num<<" "<<"prime number";
+cout<<num<<" "<<"yes";
 else
-cout<<num<<" "<<"not a prime number";
+cout<<num<<" "<<"not";
 return 0;
 }
