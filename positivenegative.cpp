@@ -16,14 +16,14 @@ cin>>a;
  
 if(a==0)
   
-cout<<"zero";
+cout<<"Zero";
 
 else if(a>0)
-cout<<"positive";
+cout<<"Positive";
 
 else
 
-cout<<"negative";
+cout<<"Negative";
   
   return 0;
 
