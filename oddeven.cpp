@@ -16,7 +16,7 @@ cin>>a;
     
 if(a<0)
     
-cout<<"Invalid";
+cout<<"invalid";
    
 else if(a%2==0)
 
