@@ -4,7 +4,7 @@ using namespace std;
 int main() {
    int lowerbound, upperbound, digitSum, temp, remainderNum, digitNum ;
    cin>>lowerbound>>upperbound;
-   for(int num = lowerbound; num <= upperbound; num++) {
+   for(int num = lowerbound; num < upperbound; num++) {
       temp = num;
       digitNum = 0;
       while (temp != 0) {
