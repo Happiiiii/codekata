@@ -16,14 +16,14 @@ cin>>a;
     
 if(a<0)
     
-cout<<"invalid";
+cout<<"Invalid";
    
 else if(a%2==0)
 
-cout<<"even";
+cout<<"Even";
 
 else
-cout<<"odd";
+cout<<"Odd";
     
 return 0;
 
