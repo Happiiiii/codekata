@@ -3,7 +3,6 @@ using namespace std;
 int main()
 {
 int origNum, num, rem, sum = 0;
-cout << "Enter number: ";
 cin >> origNum;
 num = origNum;
 while(num != 0)
@@ -13,8 +12,8 @@ sum += rem * rem * rem;
 num = num/10;
 }
 if(sum == origNum)
-cout << origNum <<" "<< "yes";
+cout<< "yes";
 else
-cout << origNum <<" "<< "no";
+cout <<"no";
 return 0;
 }
