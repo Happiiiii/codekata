@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
     char c;
-    cout << "Enter anything: ";
+    cout << "Enter: ";
     cin >> c;
    if(c >= 0 && c <=9 )
     {
@@ -16,7 +16,7 @@ int main()
     }
     else
     {
-        cout << "constant";
+        cout << "Consonant";
     }
 
     return 0;
