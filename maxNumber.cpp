@@ -1,20 +1,18 @@
 
-#include <iostream>
+#include<iostream>
 using namespace std;
-
-int main() {
-	int i,num,arr[50],largenum;
-	cin>>num;
-	for(i=0;i<num;i++)
-	{
-	    cin>>arr[i];
-		largenum =arr[0];
-	}
-	for(i=1;i<num;i++)
-	{
-		if(largenum<arr[i])
-		largenum=arr[i];
-	}
-	cout<<largenum;
-    return 0;
+int main ()
+{
+    int arr[10],n,i,m;
+    cin >> n;
+    for (i = 0; i < n; i++)
+        cin >> arr[i];
+    m = arr[0];
+    for (i = 0; i < n; i++)
+    {
+        if (m < arr[i])
+            m = arr[i];
+    }
+    cout<<m;
+        return 0;
 }
