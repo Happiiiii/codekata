@@ -1,12 +1,12 @@
 
-*/
+/*
 51 - Given a number N, print all its digits(in same order).
 Sample Testcase :
 INPUT
 123
 OUTPUT
 1 2 3 
-/*
+*/
 
 #include <iostream>
 
