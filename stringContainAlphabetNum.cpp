@@ -30,7 +30,7 @@ Yes
             
             for(int i=0;i<str.length();i++)
             {
-                if(isdigit(str[i]) || isalpha(str[i]) || str[i] == ' ')
+                if(isdigit(str[i]) || isalpha(str[i]))
                 {
                     flag = 1;
                 }
