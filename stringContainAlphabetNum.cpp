@@ -9,14 +9,7 @@ Helloworld.123
 OUTPUT
 Yes 
 */
-        /******************************************************************************
-        
-                                      Online C++ Compiler.
-                       Code, Compile, Run and Debug C++ program online.
-        Write your code in this editor and press "Run" button to compile and execute it.
-        
-        *******************************************************************************/
-        
+      
         #include <iostream>
         #include<string>
         using namespace std;
@@ -30,7 +23,7 @@ Yes
             
             for(int i=0;i<str.length();i++)
             {
-                if(isdigit(str[i]) || isalpha(str[i]) || str[i] == '_')
+                if(isdigit(str[i]) || isalpha(str[i]) || str[i] == '.' || str[i] == '_')
                 {
                     flag = 1;
                 }
@@ -48,6 +41,7 @@ Yes
             else
                 cout << "No";
             return 0;
-        }a
+        }
+
 
 
