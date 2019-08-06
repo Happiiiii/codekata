@@ -30,7 +30,7 @@ Yes
             
             for(int i=0;i<str.length();i++)
             {
-                if(isdigit(str[i]) || isalpha(str[i]) || str['_'])
+                if(isdigit(str[i]) || isalpha(str[i]) || str[i] == '_')
                 {
                     flag = 1;
                 }
@@ -48,5 +48,6 @@ Yes
             else
                 cout << "No";
             return 0;
-        }
+        }a
+
 
