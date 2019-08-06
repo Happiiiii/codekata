@@ -4,15 +4,20 @@ using namespace std;
 
 int main()
 {
-int num=1;
+int num;
 cin>>num;
-if(num<=10)
+if(num<1)
 {
-    cout<<"yes";
+cout<<"no";
+}
+else if(num>10)
+{
+cout<<"no";
 }
 else
 {
-    cout<<"no";
+    cout<<"yes";
 }
 return 0;
 }
+
