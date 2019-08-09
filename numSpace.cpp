@@ -13,18 +13,18 @@ using namespace std;
 int main() 
 {
    
-   int n,sum=0,split;
-   cin>>n;
-   while(n>0)
+   int num,sum=0,rem;
+   cin>>num;
+   while(num>0)
    {
-       split=n%10;
-       sum=sum*10+split;
-       n=n/10;
+       rem=num%10;
+       sum=sum*10+rem;
+       num=num/10;
    }
    while(sum>0)
    {
-       split=sum%10;
-        cout<<split<<" ";
+        rem=sum%10;
+        cout<<rem<<" ";
         sum=sum/10;
    }
    return 0;
