@@ -17,7 +17,7 @@ OUTPUT
 using namespace std;
 int main()
 {
-int num,result;
+int num,result=1;
 cin >> num;
 if(num>0)
 {
