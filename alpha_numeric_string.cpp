@@ -12,21 +12,17 @@ OUTPUT
 */
 
 #include <iostream>
-
+#include<string>
 using namespace std;
 
 int main()
 {
   string str;
-  
   cin >> str;
-  cout << "";
-  
-  for( int ind = 0; str[ind] != 0; ind++ )
+  for( int i = 0; str[i]>0; i++ )
   {
-      if( str[ind] >= '0' && str[ind] <= '9')
-        cout << str[ind];
+      if( str[i] >= '0' && str[i] <= '9')
+      cout << str[i];
   }
-  
   return 0;
 }
