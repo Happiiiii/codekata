@@ -6,7 +6,7 @@ int main()
     int i;
     string s;
     cin>>s;
-    if(s[i]>'0' && s[i]<'9' || s[i]=='.')
+    if(s[i]>='0' && s[i]<='9' || s[i]=='.')
     {
         cout<<"yes";
     }
