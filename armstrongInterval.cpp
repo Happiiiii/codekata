@@ -1,25 +1,32 @@
+/*
+Amstrong number between interavels
+100 400
+153
+370
+371
+*/
 #include <iostream>
-#include <cmath>
 using namespace std;
-int main() {
-   int lowerbound, upperbound, digitSum, temp, remainderNum, digitNum ;
-   cin>>lowerbound>>upperbound;
-   for(int num = lowerbound; num < upperbound; num++) {
-      temp = num;
-      digitNum = 0;
-      while (temp != 0) {
-         digitNum++;
-         temp = temp/10;
-      }
-      temp = num;
-      digitSum = 0;
-      while (temp != 0) {
-         remainderNum = temp%10;
-         digitSum = digitSum + pow(remainderNum, digitNum);
-         temp = temp/10;
-      }
-      if (num == digitSum)
-         cout<<num<<" ";
-   }
-   return 0;
+ 
+int main()
+{
+int num1,num2,sum=0,rem,i;
+cin >> num1 >> num2;
+
+for(int i=num1;i<=num2;i++)
+{
+    int num=i;
+    while(num>0)
+    {
+        rem = num % 10;
+        sum = sum + rem*rem*rem;
+        num = num /10;
+    }
+    if(sum == i)
+{
+   cout<<i<<endl;
+}
+sum=0;
+}
+return 0;
 }
