@@ -24,9 +24,9 @@ int main()
   }
   for(i=0;i<num;i++)
   {
-      for(j=0;j<num;j++)
+      for(j=i+1;j<num;j++)
       {
-          if(arr[i] < arr[j] )// sort
+          if(arr[i] > arr[j] )// sort
           {
               temp=arr[i];
               arr[i]=arr[j];
@@ -52,7 +52,7 @@ int main()
       fnd=(num/2);  //even
       for(i=fnd-1;i<=fnd;i++)
       {
-          cout<<arr[i];
+          cout<<"\n"<<arr[i]<<" ";
       }
   }
     return 0;
