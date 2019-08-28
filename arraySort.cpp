@@ -1,3 +1,9 @@
+/*
+Ascending order
+5 
+2 3 4 1 5
+1 2 3 4 5
+*/
 #include <iostream>
 using namespace std;
 int main() {
