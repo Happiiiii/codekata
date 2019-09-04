@@ -12,6 +12,8 @@ he*lo
 */
 
 
+
+
 #include <iostream>
 #include <string> 
 using namespace std;
@@ -31,10 +33,7 @@ int main()
       str [ length/2 ]='*';
       str [ (length/2)-1]='*';
   }
-  
-  //odd string
-  
-  if(length % 2 == 1)
+ else //odd string
   {
       str [ length/2 ]='*';
   }
